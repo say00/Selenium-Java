@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="Slass update.">
+    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="New variable added.">
+      <change afterPath="$PROJECT_DIR$/src/CoreJavaBrushUp2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CoreJavaBrushUp1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CoreJavaBrushUp1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +44,28 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager" selected="Application.CoreJavaBrushUp2">
+    <configuration name="CoreJavaBrushUp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreJavaBrushUp1" />
+      <module name="Selenium Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CoreJavaBrushUp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CoreJavaBrushUp2" />
+      <module name="Selenium Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.CoreJavaBrushUp2" />
+        <item itemvalue="Application.CoreJavaBrushUp1" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +89,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687625578308</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New variable added.">
+      <created>1687627398254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1687627398254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -94,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First push." />
     <MESSAGE value="Slass update." />
-    <option name="LAST_COMMIT_MESSAGE" value="Slass update." />
+    <MESSAGE value="New variable added." />
+    <option name="LAST_COMMIT_MESSAGE" value="New variable added." />
   </component>
 </project>
