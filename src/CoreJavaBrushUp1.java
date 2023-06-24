@@ -4,6 +4,7 @@ public class CoreJavaBrushUp1 {
 
 		int myNum = 5;
 		String website = "Testing purposes";
+		char letter = 'r';
 	}
 
 }
