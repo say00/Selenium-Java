@@ -12,6 +12,7 @@ public class Locators {
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		driver.findElement(By.id("inputUsername")).sendKeys("jovan");
 		driver.findElement(By.name("inputPassword")).sendKeys("jovan");

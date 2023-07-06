@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="New code added.">
-      <change afterPath="$PROJECT_DIR$/.idea/chromedriver/chromedriver" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/CoreJavaBrushUp3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Locators.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodsDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodsDemo2.java" afterDir="false" />
+    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="New code.">
+      <change afterPath="$PROJECT_DIR$/src/ExtractStringDataFromStringText.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Selenium Java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Selenium Java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locators.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,39 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <excluded-from-favorite>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="master" />
+              </list>
+            </value>
+          </entry>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/master" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </excluded-from-favorite>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="working_branch" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="develop" />
@@ -42,18 +71,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/Users/humanity/Documents/IntelliJ Projects/Selenium Java/Selenium Java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.3229885",
-    "settings.editor.selected.configurable": "org.jetbrains.idea.maven.wizards.archetype.MavenCatalogsConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/humanity/Documents/IntelliJ Projects/Selenium Java/Selenium Java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3229885&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.idea.maven.wizards.archetype.MavenCatalogsConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="" />
@@ -65,7 +94,7 @@
       <recent name="$PROJECT_DIR$/.idea/chromedriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Locators">
+  <component name="RunManager" selected="Application.ExtractStringDataFromStringText">
     <configuration name="CoreJavaBrushUp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreJavaBrushUp1" />
       <module name="Selenium Java" />
@@ -87,6 +116,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ExtractStringDataFromStringText" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ExtractStringDataFromStringText" />
+      <module name="Selenium Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Locators" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Locators" />
       <module name="Selenium Java" />
@@ -96,6 +132,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ExtractStringDataFromStringText" />
         <item itemvalue="Application.Locators" />
         <item itemvalue="Application.CoreJavaBrushUp3" />
         <item itemvalue="Application.CoreJavaBrushUp2" />
@@ -140,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687639726640</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="New code added.">
+      <created>1688043389021</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1688043389021</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,7 +198,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="working_branch" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
