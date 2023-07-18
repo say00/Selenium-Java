@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="New code push.">
-      <change afterPath="$PROJECT_DIR$/src/ExtractStringDataFromStringText.java" afterDir="false" />
+    <list default="true" id="4b091405-f208-4733-bbf7-aa0d68de2093" name="Changes" comment="New code push 18.7.">
+      <change afterPath="$PROJECT_DIR$/src/StaticDropDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projectUI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Locators.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Locators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="master" />
   </component>
   <component name="Git.Settings">
     <excluded-from-favorite>
@@ -94,14 +99,7 @@
       <recent name="$PROJECT_DIR$/.idea/chromedriver" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExtractStringDataFromStringText">
-    <configuration name="CoreJavaBrushUp1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CoreJavaBrushUp1" />
-      <module name="Selenium Java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.StaticDropDown">
     <configuration name="CoreJavaBrushUp2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CoreJavaBrushUp2" />
       <module name="Selenium Java" />
@@ -130,13 +128,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StaticDropDown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StaticDropDown" />
+      <module name="Selenium Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ExtractStringDataFromStringText" />
+        <item itemvalue="Application.StaticDropDown" />
         <item itemvalue="Application.Locators" />
+        <item itemvalue="Application.ExtractStringDataFromStringText" />
         <item itemvalue="Application.CoreJavaBrushUp3" />
         <item itemvalue="Application.CoreJavaBrushUp2" />
-        <item itemvalue="Application.CoreJavaBrushUp1" />
       </list>
     </recent_temporary>
   </component>
@@ -223,6 +228,7 @@
     <MESSAGE value="New variable added." />
     <MESSAGE value="New code added." />
     <MESSAGE value="New code push." />
-    <option name="LAST_COMMIT_MESSAGE" value="New code push." />
+    <MESSAGE value="New code push 18.7." />
+    <option name="LAST_COMMIT_MESSAGE" value="New code push 18.7." />
   </component>
 </project>

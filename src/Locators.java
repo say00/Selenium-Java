@@ -8,7 +8,7 @@ public class Locators {
 
 	public static void main(String[] args) {
 
-		System.setProperty("webdriver.chrome.driver", "/Users/humanity/Documents/IntelliJ Projects/Selenium Java/Selenium Java/.idea/chromedriver/chromedriver");
+		//System.setProperty("webdriver.chrome.driver", "/Users/humanity/Documents/IntelliJ Projects/Selenium Java/Selenium Java/.idea/chromedriver/chromedriver");
 		WebDriver driver = new ChromeDriver();
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
@@ -16,6 +16,10 @@ public class Locators {
 		driver.get("https://rahulshettyacademy.com/locatorspractice/");
 		driver.findElement(By.id("inputUsername")).sendKeys("jovan");
 		driver.findElement(By.name("inputPassword")).sendKeys("jovan");
+
+		driver.findElement(By.linkText("Forgot your password?")).click();
+
+		driver.close();
 	}
 
 }
