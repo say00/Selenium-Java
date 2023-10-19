@@ -15,10 +15,9 @@ public class StaticDropDown extends projectUI {
 		WebElement staticDropdown = driver.findElement(By.id("ctl00_mainContent_DropDownListCurrency"));
 		//Object of class Select
 		Select dropdown = new Select(staticDropdown);
-		//dropdown.
-
+		dropdown.selectByIndex(3);
+		System.out.println(dropdown.getFirstSelectedOption().getText());
+		dropdown.selectByVisibleText("AED");
+		dropdown.selectByValue("INR");
 	}
-
-
-
 }
