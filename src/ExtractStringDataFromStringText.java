@@ -33,7 +33,6 @@ public class ExtractStringDataFromStringText {
 
 		System.out.println("Extracted date from the String: " + formattedDate);
 
-
 		String inputString = "Some random text 08-11-2023";
 		String[] parts = inputString.split("\\d{2}-\\d{2}-\\d{4}");
 
