@@ -31,7 +31,7 @@ public class ExtractStringDataFromStringText {
 		DateTimeFormatter outputFormatter = DateTimeFormatter.ofPattern("dd-MM-yyyy");
 		String formattedDate = date.format(outputFormatter);
 
-		System.out.println(formattedDate);
+		System.out.println("Extracted date from the String: " + formattedDate);
 
 
 		String inputString = "Some random text 08-11-2023";
@@ -39,6 +39,6 @@ public class ExtractStringDataFromStringText {
 
 		String extractedText = parts[0].trim();
 
-		System.out.println(extractedText);
+		System.out.println("Text in String input: " + extractedText);
 	}
 }
