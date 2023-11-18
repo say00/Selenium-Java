@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
-public class e2e {
+public class TravelSearchTests {
 
 	public static void main(String[] args) throws InterruptedException {
 
@@ -25,10 +25,6 @@ public class e2e {
 		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight")).click();
 
 		driver.findElement(By.id("ctl00_mainContent_rbtnl_Trip_1")).click();
-
-		//Select calendar return
-
-
 
 		//Select number of passengers
 		Thread.sleep(1500);
