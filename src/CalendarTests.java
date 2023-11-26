@@ -25,6 +25,7 @@ public class CalendarTests {
 
 		List<WebElement> dates = driver.findElements(By.cssSelector("span[class='flatpickr-day ']"));
 
+		//We are extracting string "date" from the calendar, comparing it, and if found, stopping with the code execution.
 		for (int i = 0; i < dates.size(); i++) {
 
 			String text = driver.findElements(By.cssSelector("span[class='flatpickr-day ']")).get(i).getText();
