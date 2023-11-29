@@ -1,6 +1,9 @@
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 public class StreamTests {
 
@@ -50,5 +53,16 @@ public class StreamTests {
         //Print all the names of ArrayList
         //names.stream().filter(s -> s.length() > 4).forEach(s -> System.out.println("Ime: " + s));
         names.stream().filter(s -> s.length() > 4).limit(1).forEach(s -> System.out.println("Ime: " + s));
+    }
+
+    @Test
+    public void streamMap() {
+
+        //Print the names which have last letter "n", with Uppercase
+        Stream.of("Michael", "Devon", "Alan", "Larry", "Adam").filter(s -> s.endsWith("n")).map(String::toUpperCase).forEach(System.out::println);
+
+        //Print names which have first letter as a with uppercase and sorted
+        List<String> names = Arrays.asList("Michael", "Devon", "Alan", "Larry", "Adam");
+        names.stream().filter(s -> s.startsWith("A")).sorted().map(String::toUpperCase).forEach(System.out::println);
     }
 }
