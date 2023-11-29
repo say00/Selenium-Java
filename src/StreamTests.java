@@ -1,3 +1,4 @@
+import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.ArrayList;
@@ -11,7 +12,7 @@ public class StreamTests {
     @Test
     public void regular() {
 
-        ArrayList<String> names = new ArrayList<String>();
+        ArrayList<String> names = new ArrayList<>();
         names.add("Michael");
         names.add("Devon");
         names.add("Alan");
@@ -58,11 +59,42 @@ public class StreamTests {
     @Test
     public void streamMap() {
 
+        ArrayList<String> names1 = new ArrayList<>();
+        names1.add("Michael");
+        names1.add("Devon");
+        names1.add("Alan");
+
         //Print the names which have last letter "n", with Uppercase
-        Stream.of("Michael", "Devon", "Alan", "Larry", "Adam").filter(s -> s.endsWith("n")).map(String::toUpperCase).forEach(System.out::println);
+        Stream.of("Michael", "Devon", "Alan", "Larry", "Adam").filter(s -> s.endsWith("n")).map(String::toUpperCase)
+                .forEach(System.out::println);
 
         //Print names which have first letter as a with uppercase and sorted
-        List<String> names = Arrays.asList("Michael", "Devon", "Alan", "Larry", "Adam");
-        names.stream().filter(s -> s.startsWith("A")).sorted().map(String::toUpperCase).forEach(System.out::println);
+        List<String> names2 = Arrays.asList("Michael", "Devon", "Alan", "Larry", "Adam");
+        names2.stream().filter(s -> s.startsWith("A")).sorted().map(String::toUpperCase).forEach(System.out::println);
+
+        //Merging two different lists
+        Stream<String> newStream = Stream.concat(names1.stream(), names2.stream());
+        //newStream.forEach(System.out::println);
+
+        boolean flag = newStream.anyMatch(s -> s.equalsIgnoreCase("Devon"));
+        System.out.println(flag);
+        Assert.assertTrue(flag);
     }
+
+    @Test
+    public void streamCollect() {
+
+        List<String> ls = Stream.of("Michael", "Devon", "Alan", "Larry", "Adam").filter(s -> s.endsWith("n"))
+                .map(String::toUpperCase).toList();
+        System.out.println(ls.get(0));
+
+
+        //Print unique number from this array
+        //Sort the array and extract third index
+        List<Integer> values = Arrays.asList(3,2,2,7,5,1,9,7);
+        values.stream().distinct().forEach(System.out::println);
+
+        List<Integer> li = values.stream().distinct().sorted().toList();
+        System.out.println(li.get(2));
+;    }
 }
