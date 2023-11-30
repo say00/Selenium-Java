@@ -88,7 +88,6 @@ public class StreamTests {
                 .map(String::toUpperCase).toList();
         System.out.println(ls.get(0));
 
-
         //Print unique number from this array
         //Sort the array and extract third index
         List<Integer> values = Arrays.asList(3,2,2,7,5,1,9,7);
@@ -96,5 +95,5 @@ public class StreamTests {
 
         List<Integer> li = values.stream().distinct().sorted().toList();
         System.out.println(li.get(2));
-;    }
+    }
 }
