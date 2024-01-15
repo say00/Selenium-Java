@@ -38,7 +38,6 @@ public class NewWindowTests {
         System.out.println(name.getRect().getDimension().getHeight());
         System.out.println(name.getRect().getDimension().getWidth());
 
-
         Thread.sleep(1500);
         driver.quit();
     }
