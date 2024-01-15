@@ -33,8 +33,7 @@ public class StreamSorting {
 
         assertEquals(sortedList, originalList);
 
-
-        //Scan the name column with getText -> Beans -> and print the price of it
+        //Scan the name column with getText -> Cherry -> and print the price of it
         List<String> price;
         do {
             List<WebElement> rows = driver.findElements(By.xpath("//tr/td[1]"));
