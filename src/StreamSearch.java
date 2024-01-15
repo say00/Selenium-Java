@@ -16,6 +16,7 @@ public class StreamSearch {
         WebDriver driver = new ChromeDriver();
 
         driver.get("https://rahulshettyacademy.com/seleniumPractise/#/offers");
+
         driver.findElement(By.id("search-field")).sendKeys("Rice");
         List<WebElement> veggies = driver.findElements(xpath("//tr/td[1]"));
         List<WebElement> filteredList =  veggies.stream().filter(veggie -> veggie.getText().contains("Rice")).toList();
